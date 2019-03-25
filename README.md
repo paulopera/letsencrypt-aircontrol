@@ -7,7 +7,7 @@ All the Credits to https://help.ubnt.com/hc/en-us/articles/115005593008-airContr
 Be free to modify and optimize this script as your needs. 
 
 
-After downloading the certificate to the desirable folder, modify the cron for the certbot to also execute it.
+After downloading the script to the desirable folder, modify certbot cron to also execute it.
 It will look something like this:
 
 30 0 5 */2 * root /usr/bin/certbot renew --deploy-hook /PATH-YOUR-CHOICE/letsencrypt-aircontrol/aircontrol-import-cert.sh
